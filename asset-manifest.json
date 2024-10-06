@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/https//stepbysheva.github.io/shevchuki/static/css/main.7ec9d30c.css",
+    "main.js": "/https//stepbysheva.github.io/shevchuki/static/js/main.1a1dccb5.js",
+    "static/js/453.66178740.chunk.js": "/https//stepbysheva.github.io/shevchuki/static/js/453.66178740.chunk.js",
+    "index.html": "/https//stepbysheva.github.io/shevchuki/index.html",
+    "main.7ec9d30c.css.map": "/https//stepbysheva.github.io/shevchuki/static/css/main.7ec9d30c.css.map",
+    "main.1a1dccb5.js.map": "/https//stepbysheva.github.io/shevchuki/static/js/main.1a1dccb5.js.map",
+    "453.66178740.chunk.js.map": "/https//stepbysheva.github.io/shevchuki/static/js/453.66178740.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7ec9d30c.css",
+    "static/js/main.1a1dccb5.js"
+  ]
+}
