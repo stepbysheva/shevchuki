@@ -1,0 +1,206 @@
+.scrabble-board {
+  display: flex;
+  flex-direction: column;
+  width: 840px;
+  margin: auto;
+}
+
+.row {
+  display: flex;
+}
+
+.cell {
+  width: 50px;
+  height: 50px;
+}
+
+.scoreboard {
+  margin: auto;
+  align-items: center;
+  text-align: center;
+  display: flex;
+  width: 840px;
+}
+
+.score-entry {
+  padding: 4px;
+  display: inline;
+  border: 3px solid grey;
+  margin: 10px;
+  border-radius: 3px;
+  height: 25px;
+  font-size: larger;
+  font-family: "Arial Black";
+}
+
+.tile {
+  width: 60px;
+  height: 50px;
+  border: 6px solid #ddd;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 12px;
+  background-color: #f5f5f5;
+}
+
+.tile.TW {
+  background-color: #ff4d4d;
+  color: white;
+}
+
+.tile.DW {
+  background-color: pink;
+  color: white;
+}
+
+.tile.TL {
+  background-color: cornflowerblue;
+  color: white;
+}
+
+.tile.DL {
+  background-color: bisque;
+  color: white;
+}
+
+.letter-row {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.letter-tile {
+  width: 40px;
+  height: 40px;
+  border: 1px solid #ddd;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #eee;
+  font-size: 20px;
+  cursor: pointer;
+  margin: 0 5px;
+}
+
+.button-row {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.placed-letters {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.placed-letters ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.placed-letters li {
+  margin: 5px 0;
+}
+
+.letter-row.disabled .letter-tile {
+  cursor: not-allowed;
+  opacity: 0.5;
+}
+
+.letter-tile {
+  display: inline-block;
+  padding: 10px;
+  margin: 5px;
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  cursor: pointer;
+  text-align: center;
+}
+
+.letter-tile.selected {
+  background-color: #d3d3d3; /* Highlight color for selected letter */
+}
+
+.tile {
+  width: 40px;
+  height: 40px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #ccc;
+  font-size: 24px;
+}
+
+/* Button container for both large and small screens */
+.button-container {
+  display: flex;
+  flex-wrap: wrap; /* Allows buttons to stack if needed */
+  justify-content: center; /* Center the buttons on smaller screens */
+  margin-top: 10px;
+}
+
+/* Button style */
+.cancel-button button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #ff4d4d;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.start-game-ch {
+  justify-content: center;
+    align-content: center;
+    position: fixed;
+    left: 10px;
+    top: 10px;
+}
+
+.select-lang {
+  padding: 10px 10px;
+  font-size: 16px;
+  background-color: #ff4d4d;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.cancel-button button:hover {
+  background-color: #ff1a1a;
+}
+
+/* Large screen (desktop) styling */
+@media screen and (min-width: 1100px) {
+  /* Align the button container to the right on large screens */
+  .button-row {
+    position: absolute;
+    right: 15vh; /* Position buttons on the right side */
+    align-items: center;
+    top: 30%; /* Vertically center */
+    flex-direction: column; /* Stack buttons vertically */
+    justify-content: flex-start;
+  }
+
+  .cancel-button {
+    margin-top: 10%;
+  }
+
+}
+
+
+/* Small screen (mobile) styling */
+@media screen and (max-width: 1099px) {
+  /* Stack buttons below the board in a row */
+  .button-row {
+    flex-direction: row; /* Display buttons in a row */
+    justify-content: center; /* Center the buttons under the board */
+  }
+
+}
