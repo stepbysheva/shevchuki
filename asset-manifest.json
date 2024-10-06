@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/stepbysheva.github.io/shevchuki/react1/static/css/main.7ec9d30c.css",
-    "main.js": "/stepbysheva.github.io/shevchuki/react1/static/js/main.f2445a2a.js",
-    "static/js/453.66178740.chunk.js": "/stepbysheva.github.io/shevchuki/react1/static/js/453.66178740.chunk.js",
-    "index.html": "/stepbysheva.github.io/shevchuki/react1/index.html",
-    "main.7ec9d30c.css.map": "/stepbysheva.github.io/shevchuki/react1/static/css/main.7ec9d30c.css.map",
-    "main.f2445a2a.js.map": "/stepbysheva.github.io/shevchuki/react1/static/js/main.f2445a2a.js.map",
-    "453.66178740.chunk.js.map": "/stepbysheva.github.io/shevchuki/react1/static/js/453.66178740.chunk.js.map"
+    "main.css": "/https//:stepbysheva.github.io/shevchuki/react1/static/css/main.7ec9d30c.css",
+    "main.js": "/https//:stepbysheva.github.io/shevchuki/react1/static/js/main.c0a61cfe.js",
+    "static/js/453.66178740.chunk.js": "/https//:stepbysheva.github.io/shevchuki/react1/static/js/453.66178740.chunk.js",
+    "index.html": "/https//:stepbysheva.github.io/shevchuki/react1/index.html",
+    "main.7ec9d30c.css.map": "/https//:stepbysheva.github.io/shevchuki/react1/static/css/main.7ec9d30c.css.map",
+    "main.c0a61cfe.js.map": "/https//:stepbysheva.github.io/shevchuki/react1/static/js/main.c0a61cfe.js.map",
+    "453.66178740.chunk.js.map": "/https//:stepbysheva.github.io/shevchuki/react1/static/js/453.66178740.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.7ec9d30c.css",
-    "static/js/main.f2445a2a.js"
+    "static/js/main.c0a61cfe.js"
   ]
 }
