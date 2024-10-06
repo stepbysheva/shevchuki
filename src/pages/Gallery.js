@@ -13,7 +13,7 @@ const Modal = ({ show, handleClose, photos, setPhotos }) => {
   const hashtagCategories = {
     Person: ['Stepan', 'Taras', 'Karina', 'Andrey', 'Oksana', 'Family', 'Friends', 'Pets'],
     Place: ['Great Britain', 'Kiev', 'Glevaha', 'England', 'Abroad trip', 'Ukraine trip'],
-    Action: ['Walk', 'Eating', 'chilling', 'we are guests', 'we have guests'],
+    Action: ['Walk', 'Eating', 'chilling', 'we are guestss', 'we have guests'],
     Year: ['2006-2010', '2010-2014','2014-2016', '2017-2019','2020', '2021','2022', '2023', '2024']
   };
 
