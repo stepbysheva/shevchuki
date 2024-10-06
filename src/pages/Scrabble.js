@@ -53,7 +53,7 @@ const getSpecialTile = (row, col) => {
   return null;
 };
 
-const socket = io('http://127.0.0.1:5000');
+const socket = io('https://shevchuki-backend.onrender.com');
 
 // Scoreboard component to display the players' scores
 const Scoreboard = ({ players }) => {
@@ -135,7 +135,7 @@ const ScrabbleBoard = () => {
 
   const checkWord = async () => {
     if (placedLetters.length !== 0) {
-      const response = await fetch('http://localhost:5000/validate_board', {
+      const response = await fetch('https://shevchuki-backend.onrender.com/validate_board', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
@@ -173,7 +173,7 @@ const ScrabbleBoard = () => {
 
   const endTurn = async () => {
     const amount = 7 - availableLetters.length;
-    const response = await fetch('http://localhost:5000/get_letters', {
+    const response = await fetch('https://shevchuki-backend.onrender.com/get_letters', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
